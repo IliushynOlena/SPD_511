@@ -97,12 +97,21 @@ line2 = "Text"
 line3 = "Markup"
 line4 = "Language"
 allLine = line1 + " " + line2 + " "+ line3+ " " + line4
-print(allLine)
-print("hello"*5)
-print("="*30)
-print(allLine*4)
-#input ---> str
-a = int(input("Enter first number : ")) 
-b = float(input("Enter second number : ")) 
-res = a + b
-print(f"Result : {a} + {b} = {res}")
+
+#Task 1  Ctrl+K+C     Ctrl + /
+# print(allLine)
+# print("hello"*5)
+# print("="*30)
+# print(allLine*4)
+# #input ---> str
+# a = int(input("Enter first number : ")) 
+# b = float(input("Enter second number : ")) 
+# res = a + b
+# print(f"Result : {a} + {b} = {res}")
+
+num = 1234  # / // %
+a = num//1000  #1
+b = num//100%10  #1234//100 = 12%10 = 2
+c = num//10%10 #1234//10 = 123%10 = 3
+d = num%10 #4
+print( str(d)+str(c)+str(b)+str(a))

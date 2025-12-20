@@ -25,3 +25,10 @@ print("P","y","t","h","o","n", sep='\n')
 print("red","green","blue","white",sep='*', end=" ")
 
 print("Olga","Inna","Ivan", sep='_')
+
+
+
+
+
+# print(f"{RED}This text is red. {GREEN}This text is green. {CYAN}This text is cyan.{RESET}\n\n")
+# print(RED + "This line is red, and the next line will be default." + RESET)
