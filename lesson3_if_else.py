@@ -94,13 +94,13 @@ competent = True
 print(not competent)
 
 #  if else    switch
-# age = int(input("Enter age : ")) #7
+age = int(input("Enter age : ")) #7
 
-# #if age >= 6 and age <= 17:
-# if  6 <= age  <= 17:
-#     print("Child go to school...")
-# else:
-#     print("Incorrect age to go to school")
+#if age >= 6 and age <= 17:
+if  6 <= age  <= 17:
+    print("Child go to school...")
+else:
+    print("Incorrect age to go to school")
 
 #Ctrl + K + C /comment code
 #Ctrl + /
