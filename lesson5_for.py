@@ -4,7 +4,8 @@ print(line[0])
 print(line[1])
 print(line[2])
 #show all text
-for letter in line:
+
+for letter in line:#smart pointer
     print(letter, end="")
 print()
 #show all text
@@ -95,3 +96,28 @@ else:
 #     print("складене число")
 # else:
 #     print("prime number")
+
+#Користувач вводить із клавіатури два числа. Потрібно порахувати 
+# суму чисел у вказаному діапазоні, а також середньоарифметичне.
+a = int(input("Enter a :"))#10  
+b = int(input("Enter b :"))#55
+
+count = 0
+summa = 0
+while a <= b:
+    print(a) #0 + 10 +11 +12 + 13 ...20
+    count+=1
+    summa += a
+    a+=1
+
+print("Summa", summa)
+print("Count", count)
+
+s = 0
+c = 0
+for num in range(a,b+1):
+    print(num)
+    s += num
+    c +=1
+print("Summa", s)
+print("Count", c)
