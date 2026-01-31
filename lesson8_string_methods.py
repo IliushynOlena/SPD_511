@@ -256,3 +256,4 @@ line = "Python 2026"
 print(line.center(30))
 print(line.center(30,'-'))
 print(line.center(5))
+
