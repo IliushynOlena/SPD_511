@@ -81,7 +81,7 @@ print(list1)
 
 print("_".join(list1))
 
-line = "blue green yellow white orange black green yellow white orange black"
+line = "23 15 yellow white orange black green yellow white orange black"
 
 line_colors = line.split(" ")
 print(line_colors)
